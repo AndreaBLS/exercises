@@ -29,12 +29,12 @@ let resultTwo = (a + b) * c;
 console.log(resultTwo);
 
 //Task 7
-a++;
-console.log(a);
+
+console.log(++a);
 
 //Task 8
-b--;
-console.log(b);
+
+console.log(--b);
 
 //Task 9
 
