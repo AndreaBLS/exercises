@@ -10,10 +10,9 @@ console.log(y - x);
 console.log(x * y);
 console.log(x / y);
 
-let z = 10;
-
 //Task 5 
 
+let z = 10;
 let resultOne = (x * y) / z;
 console.log(resultOne);
 
