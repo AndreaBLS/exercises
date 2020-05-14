@@ -20,4 +20,4 @@ console.log(firstName, lastName, city, job, hobby);
 
 // Task 5 
 
-console.log(firstName, lastName + " lives in ", city + " and he's a ",  job + " without a", hobby)
+console.log(firstName, lastName + " lives in ", city + " and he's a ", job + " without a", hobby);
