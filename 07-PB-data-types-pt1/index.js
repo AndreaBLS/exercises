@@ -8,9 +8,9 @@ console.log(myVar);
 console.log(myVar[1] + myVar[5]);
 
 // 3 - 4 - 5
-let name = "Andrea"
-let age = "29"
-let year = "2025"
+let name = "Andrea";
+let age = "29";
+let year = "2025";
 
 // 6 
 console.log(`${name} is ${age} in ${year}`);
@@ -22,7 +22,7 @@ let isMarried = 'false';
 console.log(`${name} is married:${isMarried}`);
 
 // 9
-let programmingLanguage = 'Javascript'
+let programmingLanguage = 'Javascript';
 let isFun = true;
 console.log(`${programmingLanguage} is fun: ${isFun}`);
 
