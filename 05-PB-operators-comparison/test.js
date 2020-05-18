@@ -15,7 +15,7 @@ let y = 30;
 console.log("Q1:", x === y);
 
 // Task 2
-console.log("Q2:", x != y);
+console.log("Q2:", x !== y);
 
 // Task 3
 console.log("Q3:", x > y);
