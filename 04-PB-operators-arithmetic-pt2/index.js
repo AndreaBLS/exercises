@@ -56,3 +56,12 @@ let avgHoursWorked = (8 + 6 + 5 + 9 + 8 + 2 + 1 + 8.5 + 7 + 4) / 10;
 console.log("Noemy's average working hours per day  was " + avgHoursWorked, "h")
 
 // Q11
+
+console.log("Score in the sixth test: ", (85 * 6 - (75 + 70 + 85 + 90 + 100)));
+
+// Q12
+
+let neededAverage = 80 * 9;
+let actualAverage = 78 * 8;
+let finalAverage = neededAverage - actualAverage;
+console.log("James needs a minimum of ", finalAverage, "% to get an 80% average.")
