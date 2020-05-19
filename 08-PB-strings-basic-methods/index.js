@@ -41,5 +41,5 @@ let age = "29";
 console.log(`9:My name is ${firstName}. I live in ${city} and i am ${age}yrs old`)
 
 // Task 10
-let fox = 'the quick brown fox';
+let fox = "the quick brown fox";
 console.log(`10: ${fox[0].toUpperCase()}${fox.substring(1)}`);
