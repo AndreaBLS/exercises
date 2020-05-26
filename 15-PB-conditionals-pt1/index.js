@@ -57,7 +57,7 @@ console.log("Task 6:");
 if (integOne + integTwo === 8 || integOne - integTwo === 8) {
     console.log(true);
 } else {
-    console.log("None of required conditions for printing true is met in my case.")
+    console.log("None of the required conditions for printing true is met in my case.");
 }
 
 //Task 7
@@ -65,7 +65,7 @@ console.log("Task 7:");
 if (integOne === 15 || integTwo === 15 || integOne + integTwo === 15) {
     console.log(true);
 } else {
-    console.log("None of required conditions for printing true is met in my case.")
+    console.log("None of the required conditions for printing true is met in my case.");
 }
 
 //Task 8
@@ -73,7 +73,7 @@ console.log("Task 8:");
 if (integOne % 7 === 0 || integOne % 11 === 0 || integTwo % 7 === 0 || integTwo % 11 === 0) {
     console.log(true);
 } else {
-    console.log("None of required conditions for printing true is met in my case.");
+    console.log("None of the required conditions for printing true is met in my case.");
 }
 
 //Task 9
