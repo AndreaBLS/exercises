@@ -17,17 +17,17 @@ let willy = { firstName: "Willy", mass: 85, age: 30, height: 1.69 };
 // 2. Calculate both their BMIs and store their BMIs in variables. 
 let andreaBMI = BMIcalc(andrea.mass, andrea.height);
 let willyBMI = BMIcalc(willy.mass, willy.height);
-console.log(`Andrea's BMI is ${andreaBMI} and Willy's BMI is ${willyBMI}`);
+console.log(`${andrea.firstName}'s BMI is ${andreaBMI} and ${willy.firstName}'s BMI is ${willyBMI}`);
 
 // 3. Create a boolean variable containing information about whether Mark has a higher BMI than John.
 let higherBMI;
 if (willyBMI > andreaBMI) {
     higherBMI = true;
     //    4. Print a string to the console containing the variable from step 3 using string interpolation. 
-    console.log(`\nIs Willy's BMI higher than Andrea's? ${higherBMI}\n`);
+    console.log(`\nIs ${willy.firstName}s BMI higher than ${andrea.firstName}'s? ${higherBMI}\n`);
 } else {
     higherBMI = false;
-    console.log(`Is Willy's BMI higher than Andrea's? ${higherBMI}`);
+    console.log(`Is ${willy.firstName}s BMI higher than ${andrea.firstName}'s? ${higherBMI}`);
 }
 
 let message = {
