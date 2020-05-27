@@ -67,7 +67,7 @@ let string = "Python";
 let pyString = "Py" + string;
 
 console.log("Task 4:");
-if (pyString.includes("Py")) {
+if (pyString.startsWith("Py")) {
     console.log(string);
 }
 
