@@ -11,11 +11,12 @@ let willy = { firstName: "Willy", mass: 85, age: 30, height: 1.69 };
 
 let andreaBMI = BMIcalc(andrea.mass, andrea.height);
 let willyBMI = BMIcalc(willy.mass, willy.height);
+console.log(`Andrea's BMI is ${andreaBMI} and Willy's BMI is ${willyBMI}`)
 
 let higherBMI;
 if (willyBMI > andreaBMI) {
     higherBMI = true;
-    console.log(`Is Willy's BMI higher than Andrea's? ${higherBMI}`)
+    console.log(`\nIs Willy's BMI higher than Andrea's? ${higherBMI}\n`)
 } else {
     higherBMI = false;
     console.log(`Is Willy's BMI higher than Andrea's? ${higherBMI}`)
@@ -30,6 +31,10 @@ if (willyBMI > andreaBMI) {
 } else {
     console.log(andrea.firstName, message.higherBMI);
 }
+
+
+
+
 
 /* i started doing that and i felt like a Neanderthal.. so i searched how to write the calculation once
 
