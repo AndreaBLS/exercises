@@ -15,12 +15,12 @@ let sum = 0;
 while (number <= 20) {
     sum = sum + number;
     number++;
-    console.log(sum)
-} 
+    console.log(sum);
+}
 
 // Task 3 
 
 do {
     i++;
-    console.log(`The number is ${i}`)
-} while ( i < 20)
+    console.log(`The number is ${i}`);
+} while (i < 20);
