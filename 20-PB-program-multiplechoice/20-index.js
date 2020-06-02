@@ -61,7 +61,7 @@ switch (fruit) {
 console.log(fruit)
 
 
-let percentageComplete = Math.random() * 100;
+let percentageComplete = Math.ceil(Math.Random() *100)
 if (percentageComplete < 30) {
     console.log("Still a long way to go");
 } else if (percentageComplete <= 50) {
