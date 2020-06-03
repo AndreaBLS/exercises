@@ -38,14 +38,14 @@ for (let i = 1; i < 101; i++) {
         console.log("Buzz");
     } else if (i % 3 === 0) {
         console.log("Fizz");
-    }
+    } else { console.log(i) }
 }
 
 // Task 6
-for (let i = 1, sum = 0; i < 1001; i++) {
+for (let i = 1, sum = 0; i < 1000; i++) {
     console.log(i)
-     if ((i % 3) === 0 || (i % 5) === 0 ) {
+    if ((i % 3) === 0 || (i % 5) === 0) {
         sum = i + sum;
         console.log(sum);
-    } 
+    }
 }
