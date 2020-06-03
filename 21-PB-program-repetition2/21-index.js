@@ -3,7 +3,7 @@
 // Task 1 
 let i = 0;
 
-while (i <= 15) {
+while (i < 15) {
     i++;
     console.log(i);
 }
