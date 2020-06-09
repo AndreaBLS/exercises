@@ -17,7 +17,7 @@ const daysLeft = (glob) => {
             remainingDays = 31 - day;
             break;
         case 1:
-            28
+            remainingDay = 28 - day;
             break;
         case 3:
         case 5:
