@@ -61,3 +61,42 @@ console.log("Task 5:");
 console.log(countOccurrences("this is a string", "i"));
 console.log(countOccurrences("andrea", "a"));
 console.log(countOccurrences("this is a string", "o"));
+
+// Task 6 
+const calculateBaseToExponent = (baseNumber, exponentNumber) => {
+    return baseNumber ** exponentNumber;
+}
+console.log("Task 6:")
+console.log(calculateBaseToExponent(5, 5));
+console.log(calculateBaseToExponent(10, 10));
+console.log(calculateBaseToExponent(3, 3));
+
+// Task 7
+const dogAge = (puppyAge) => {
+    return puppyAge * 7;
+}
+console.log("Task 7:");
+console.log(`Your doggo is ${dogAge(4)} years old in human years!`);
+
+// Task 8 
+const calcSupply = (actualAge, amountPerDay) => {
+    const maxage = 80;
+    const remainingYears = maxage - actualAge;
+    const totalAmountNeeded = ((remainingYears * 365) * amountPerDay);
+    return `You will need ${totalAmountNeeded} of whatever you want to eat (${amountPerDay} a day) to last till the age of ${maxage} `;
+}
+console.log("Task 8:");
+console.log(calcSupply(25, 2));
+console.log(calcSupply(40, 3));
+
+// Task 9 
+const isWaldoHere = (string) => {
+    return string.includes('Waldo')
+}
+console.log("Task 9:");
+console.log(isWaldoHere("is there wal here ?"));
+console.log(isWaldoHere("I found you Waldo!"));
+console.log(isWaldoHere("is wally here?"));
+console.log(isWaldoHere("waldo is here"));
+
+// Task 10
