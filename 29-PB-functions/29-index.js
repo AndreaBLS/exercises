@@ -68,10 +68,10 @@ console.log(calculateBaseToExponent(3, 3));
 // Task 7
 const humanYears = 7;
 const dogAge = (puppyAge = 0) =>
-    puppyAge * humanAge;
+    `Your doggo is ${puppyAge*humanYears} years old in human years!`
 
 console.log("Task 7:");
-console.log(`Your doggo is ${dogAge(4)} years old in human years!`);
+console.log(dogAge(4));
 
 // Task 8 
 const calcSupply = (actualAge = 0, amountPerDay = 0) => {
