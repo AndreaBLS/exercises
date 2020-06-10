@@ -66,7 +66,7 @@ console.log(calculateBaseToExponent(10, 10));
 console.log(calculateBaseToExponent(3, 3));
 
 // Task 7
-const humanAge = 7;
+const humanYears = 7;
 const dogAge = (puppyAge = 0) =>
     puppyAge * humanAge;
 
