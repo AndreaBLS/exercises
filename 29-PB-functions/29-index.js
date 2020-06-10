@@ -47,8 +47,8 @@ console.log(lessThanOrEqualToZero(10));
 
 // Task 5
 const countOccurrences = (string, letter) => {
-    const re = new RegExp(letter, "g");
-    const count = string.match(re) || [].length;
+    const re = new RegExp(letter, "g"),
+        count = string.match(re) || [].length;
     return count.length || 0;
 }
 console.log("Task 5:");
@@ -57,26 +57,26 @@ console.log(countOccurrences("andrea", "a"));
 console.log(countOccurrences("this is a string", "o"));
 
 // Task 6 
-const calculateBaseToExponent = (baseNumber = 0, exponentNumber = 0) => {
-    return baseNumber ** exponentNumber;
-}
+const calculateBaseToExponent = (baseNumber = 0, exponentNumber = 0) =>
+    baseNumber ** exponentNumber;
+
 console.log("Task 6:")
 console.log(calculateBaseToExponent(5, 5));
 console.log(calculateBaseToExponent(10, 10));
 console.log(calculateBaseToExponent(3, 3));
 
 // Task 7
-const dogAge = (puppyAge = 0) => {
-    return puppyAge * 7;
-}
+const dogAge = (puppyAge = 0) =>
+    puppyAge * 7;
+
 console.log("Task 7:");
 console.log(`Your doggo is ${dogAge(4)} years old in human years!`);
 
 // Task 8 
 const calcSupply = (actualAge = 0, amountPerDay = 0) => {
-    const maxage = 80;
-    const remainingYears = maxage - actualAge;
-    const totalAmountNeeded = ((remainingYears * 365) * amountPerDay);
+    const maxage = 80,
+        remainingYears = maxage - actualAge,
+        totalAmountNeeded = ((remainingYears * 365) * amountPerDay);
     return `You will need ${totalAmountNeeded} of whatever you want to eat (${amountPerDay} a day) to last till the age of ${maxage} `;
 }
 console.log("Task 8:");
