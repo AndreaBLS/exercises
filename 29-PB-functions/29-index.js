@@ -75,7 +75,7 @@ console.log(dogAge(4));
 
 // Task 8 
 const calcSupply = (actualAge = 0, amountPerDay = 0) => {
-    const maxage = 80,
+    const maxAge = 80,
         remainingYears = maxage - actualAge,
         totalAmountNeeded = ((remainingYears * 365) * amountPerDay);
     return `You will need ${totalAmountNeeded} of whatever you want to eat (${amountPerDay} a day) to last till the age of ${maxage} `;
@@ -86,7 +86,7 @@ console.log(calcSupply(40, 3));
 
 // Task 9 
 const isWaldoHere = (string) =>
-    string.includes('Waldo') || string.includes('waldo')
+    string.includes('Waldo') || string.includes('waldo');
 
 console.log("Task 9:");
 console.log(isWaldoHere("is there wal here ?"));
