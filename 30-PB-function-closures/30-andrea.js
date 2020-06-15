@@ -24,7 +24,7 @@ console.log(multiplier(5)(10));
 
 // Task 3
 
-let IIFE = (function (currentAge, retirementAge, monthlyWage, savingsPercentage) {
+let pensionSavings = (function (currentAge, retirementAge, monthlyWage, savingsPercentage) {
     if (currentAge > retirementAge) {
         return "You're already retired!";
     } else {
@@ -34,4 +34,4 @@ let IIFE = (function (currentAge, retirementAge, monthlyWage, savingsPercentage)
     }
 })(40, 65, 2000, 5);
 
-console.log(IIFE);
+console.log(pensionSavings);
