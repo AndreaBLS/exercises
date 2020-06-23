@@ -11,7 +11,6 @@ const halfTree = (character, lines) => {
         }
     }
 }
-// not perfect but almost :D 
 
 halfTree("a", 4);
 
