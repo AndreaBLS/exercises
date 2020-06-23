@@ -31,7 +31,7 @@ console.log("Task 3: City Names:", string);
 
 // Task 4: Odds and Evens
 
-const oddsEvens = (array) => {
+ const oddsEvens = (array) => {
     for (let i = 0; i < array.length; i++) {
         if (array[i] % 2 === 0) {
             array[i]--; // i was doing +1 but it doesnt work :( i would need to create a variable that contains array[i] + 1??
@@ -40,9 +40,10 @@ const oddsEvens = (array) => {
         }
     } return array
 }
-
+console.log("Task 4: Odds and Evens")
 console.log(oddsEvens([3, 5, 2, 4]));
-console.log(oddsEvens([6, 9, 10, 20]));
+console.log(oddsEvens([6, 9, 10, 20])); 
 
 // Task 5: Capitalize
+
 
