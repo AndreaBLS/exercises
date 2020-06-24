@@ -11,7 +11,7 @@ const student = {
     }
 }
 
-console.log(`Task 1: \n ${student.myMethod()} \n`);
+console.log(`Task 1: \n${student.myMethod()} \n`);
 
 // Task 2
 
@@ -29,4 +29,4 @@ const person = {
     }
 }
 
-console.log(`Task 2: \n ${person.myMethod()} \n Bonus: ${person.objectLength()}`);
+console.log(`Task 2: \n${person.myMethod()} \nBonus: ${person.objectLength()}`);
