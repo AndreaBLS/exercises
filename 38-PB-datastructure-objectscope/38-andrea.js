@@ -26,7 +26,7 @@ const person = {
         return `${this.firstName} ${this.lastName} is a ${this.age} years old ${this.job} living in ${this.city}`;
     },
     objectLength: function () {
-        return `This object's length is ${Object.keys(this).length}`
+        return `This object's length is ${Object.keys(this).length}`;
     }
 }
 
