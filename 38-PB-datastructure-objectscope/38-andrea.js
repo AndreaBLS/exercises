@@ -29,4 +29,4 @@ const person = {
     }
 }
 
-console.log(`Task 2: \n ${person.myMethod()} \n ${person.objectLength()}`);
+console.log(`Task 2: \n${person.myMethod()} \n ${person.objectLength()}`);
