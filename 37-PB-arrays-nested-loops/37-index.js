@@ -11,6 +11,7 @@ const halfTree = (character, lines) => {
         }
     }
 }
+console.log("Task 1: Tree")
 halfTree("*", 4);
 
 // Task 2: 
