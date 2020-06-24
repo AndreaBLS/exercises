@@ -24,8 +24,12 @@ const person = {
     city: "Berlin",
     myMethod: function () {
         return `${this.firstName} ${this.lastName} is a ${this.age} years old ${this.job} living in ${this.city}`;
+    },
+    objectLength: function () {
+        return `This object's length is ${Object.keys(this).length}`
     }
 }
 
 console.log("Task 2:");
 console.log(person.myMethod());
+console.log(person.objectLength())
