@@ -32,4 +32,4 @@ const person = {
 
 console.log("Task 2:");
 console.log(person.myMethod());
-console.log(person.objectLength())
+console.log(person.objectLength());
