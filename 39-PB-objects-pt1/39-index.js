@@ -10,7 +10,7 @@ const person = {
     city: "Berlin"
 }
 
-console.log("\n Task 1: Object Person.");
+console.log("\nTask 1: Object Person.");
 for (let prop in person) {
     console.log(`${prop}: ${person[prop]}`);
 }
@@ -52,9 +52,7 @@ const objectThree = {
     turtles: 4
 }
 const convertObjToArr = (obj) => {
-    let i = 0;
     console.log(Object.entries(obj));
-    i++;
 }
 convertObjToArr(objectTwo);
 convertObjToArr(objectThree);
