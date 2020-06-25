@@ -10,7 +10,7 @@ const person = {
     city: "Berlin"
 }
 
-console.log("Task 1: Object Person.");
+console.log("\n Task 1: Object Person.");
 for (let prop in person) {
     console.log(`${prop}: ${person[prop]}`);
 }
