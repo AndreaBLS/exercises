@@ -53,7 +53,7 @@ const objectThree = {
 };
 const convertObjToArr = (obj) => {
     console.log(Object.entries(obj));
-}
+};
 convertObjToArr(objectTwo);
 convertObjToArr(objectThree);
 
@@ -61,7 +61,7 @@ convertObjToArr(objectThree);
 
 function arrayProperties(object) {
     console.log(Object.keys(object));
-}
+};
 console.log("\nBonus Tasks 2: List Properties");
 arrayProperties(person);
 
