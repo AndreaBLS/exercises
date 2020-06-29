@@ -22,8 +22,7 @@ let Johnny, Walker
     Walker
 } = mykeyPairValues)
 
-console.log(Johnny);
-console.log(Walker);
+console.log("Task 2:", Johnny, Walker);
 
 // Task 3 
 
@@ -37,4 +36,4 @@ let name, nationality, genre, greatestHit;
     greatestHit: "x"
 });
 
-console.log(`${name} is a ${nationality} band. They make ${genre} and their greatest hit is ${greatestHit}`);
+console.log(`Task 3: ${name} is a ${nationality} band. They make ${genre} and their greatest hit is ${greatestHit}`);
