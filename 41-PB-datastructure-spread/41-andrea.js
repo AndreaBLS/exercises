@@ -23,3 +23,18 @@ console.log("Task 2 Copying Arrays", copiedArray);
 
 // Task 3 Find the Largest..
 
+const largestNumber = (arr) => {
+    return Math.max(...arr);
+}
+
+console.log("Task 3 Find the Largest: ", largestNumber([4, 3, 6, 15]));
+
+// task 4 
+
+const smallestNumber = (arr) => {
+    return Math.min(...arr);
+}
+console.log("Task 4 Find the Smallest: ", largestNumber([4, 3, 6, 15]));
+
+// task 5 
+
