@@ -7,6 +7,8 @@ let foodCategory = document.getElementsByClassName("food-category");
 let main = document.querySelector("main");
 let warning = document.getElementById("warning");
 let listItem = document.querySelectorAll(".food-item");
+let allergiesUl = document.querySelectorAll(".allergies")
+let allergyItem = document.querySelectorAll(".allergy-info");
 
 // body
 body.style.cssText = "font-family: Arial, Helvetica, sans-serif;";
@@ -46,3 +48,8 @@ for (let child of foodCategory) {
 warning.style.fontSize = "1.5rem";
 warning.style.textAlign = "center";
 
+for (let i = 0; i < allergiesUl.children.length;i++) {
+    if (i % 2 != 0) {
+        
+    }
+}

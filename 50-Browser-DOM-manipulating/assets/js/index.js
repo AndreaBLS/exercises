@@ -27,3 +27,34 @@ const books = [
     img: "https://eloquentjavascript.net/img/cover.jpg"
   }
 ];
+
+let bookList = document.querySelector(".book-list")
+
+books.map(book => {
+  // book container
+  let li = document.createElement("li")
+  li.classList.add("book")
+
+  let img = document.createElement("img")
+  img.src = book.img
+  img.classList.add("img", "img-fluid")
+
+  let title = document.createElement("h2")
+  title.textContent = book.title
+  let authorName = document.createElement("h4")
+  authorName.textContent = book.author
+
+  let footer = document.createElement("footer")
+  footer.classList.add("text-right")
+  let button = document.createElement("span")
+  button.classList.add("status")
+  button.innerText = book.alreadyRead ? "Read" : "To Read"
+  button.style.backgroundColor = book.alreadyRead ? "green" : "gray"
+
+  li.append(img, title, authorName, footer)
+
+  footer.appendChild(button)
+
+  bookList.appendChild(li)
+
+})
