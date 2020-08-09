@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <title>Github Search</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="mt-5 ">GitHub Username Widget</h3>
+      <form class="form-inline md-form mr-auto mb-4  gitHubForm mx-auto">
+        <input
+          class="form-control mr-sm-2 usernameInput"
+          type="text"
+          placeholder="Insert a GitHub Username"
+          aria-label="Search"
+        />
+        <button class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit">
+          Search
+        </button>
+      </form>
+      <ul class="list-group mb-5 userRepos"></ul>
+    </div>
+    <script src="./scripts/moment.js"></script>
+    <script type="module" src="./scripts/gitHubApiUserRepo.js"></script>
+  </body>
+</html>

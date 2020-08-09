@@ -20,7 +20,7 @@ function delay(ms, number) {
 
 let showModal = async () => {
     try {
-        await delay(2000)
+        await delay(60000)
         modal.style.display = "block";
     } catch (err) {
         console.log(err)
@@ -40,11 +40,10 @@ modal.addEventListener("click", (e) => {
 let button = document.getElementById("continue")
 
 button.addEventListener("mouseover", (e) => {
-    button.style.backgroundColor = "blue"
+    button.style.backgroundColor = "rgb(0, 195, 255)"
 })
 
 
 button.addEventListener('animationend', async () => {
     await alert("Continue to subscribe!")
   })
-
